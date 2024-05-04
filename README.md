@@ -21,8 +21,8 @@ Created a Python script to perform a daily update of a vehicle information in an
 - Install Python
 - Install iSeries ODBC Driver
 - Create Python Scripts
-    - [get_vehicles.py](blob/main/get_vehicles.py)
-    - [insert_vehicles.py](blob/main/insert_vehicles.py)
+    - [get_vehicles.py](get_vehicles.py)
+    - [insert_vehicles.py](insert_vehicles.py)
 - Schedule task in Windows Server Task Scheduler
 
 
