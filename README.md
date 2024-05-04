@@ -1,28 +1,30 @@
 <p align="center">
-<img src="https://place-hold.it/600x200" alt="Place Holder Image"/>
-<!-- <img src="assets/logo.svg" alt="Logo Text There" /> -->
+<!--img src="https://place-hold.it/600x200" alt="Place Holder Image"/-->
+<img src="assets/python.png" alt="Python Logo" />
 </p>
 
-# Project Title
-"[Project Name]" involves [briefly describe the main objective or purpose of the project] utilizing [mention any specific tools, technologies, or platforms]. This project aims to [mention the primary goal or outcome] to [highlight the intended impact or benefit].
+# Python script to update database tables on iSeries Mainframe
+Created a Python script to perform a daily update of a vehicle information in an iSeries database table.  The table was used by a web application that managed parking lot permits.  Prior to this a manual process was used to add vehicles if they weren't available.  
 
 ## Environments and Technologies Used
 
-- Item 1
-- Item 2
-- Item 3
+- Python
+- SQL
+- Windows Server Task Scheduler
 
 ## Operating Systems Used
 
-- Operating System Name
+- Windows Server
 
 ## High-Level Deployment and Configuration Steps
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
-- Step 5
+- Install Python
+- Install iSeries ODBC Driver
+- Create Python Scripts
+    - [get_vehicles.py](vehicles.py)
+    - [insert_vehicles.py](insert_vehicles.py)
+- Schedule task in Windows Server Task Scheduler
+
 
 <h2>Architecture Diagram</h2>
 
