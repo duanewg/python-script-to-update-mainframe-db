@@ -14,7 +14,7 @@ Created a Python script to perform a daily update of a vehicle information in an
 
 ## Operating Systems Used
 
-- Windows Server
+- Windows Server 2012
 
 ## High-Level Deployment and Configuration Steps
 
