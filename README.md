@@ -3,7 +3,7 @@
 <img src="assets/python.png" alt="Python Logo" />
 </p>
 
-# Python script to update database tables on iSeries Mainframe
+# Python script to update database table on IBM iSeries Mainframe  
 Created a Python script to perform a daily update of a vehicle information in an iSeries database table.  The table was used by a web application that managed parking lot permits.  Prior to this a manual process was used to add vehicles if they weren't available.  
 
 ## Environments and Technologies Used
